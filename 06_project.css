@@ -1,0 +1,421 @@
+body {
+    font-family: system-ui;
+    margin: 0%;
+}
+
+.main_nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+    column-gap: 160px;
+    flex-wrap: wrap;
+
+}
+
+.list1 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    column-gap: 50px;
+    font-size: 15px;
+}
+
+
+.list1 li a {
+    text-decoration: none;
+    color: white;
+}
+
+.list1 li a:hover {
+    color: #004561;
+}
+
+.paragraf_1 {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 78px;
+    font-weight: 700;
+    color: white;
+}
+
+.paragraf_2 {
+    text-align: center;
+    font-size: 28px;
+    color: #004561;
+}
+
+.mybtn {
+    position: absolute;
+    margin-left: 266px;
+    left: 652px;
+    top: 411px;
+    width: 100px;
+    border-radius: 25px;
+}
+
+.form-control {
+    border-radius: 50px;
+    width: 65pc;
+    height: 65px;
+    margin-top: 40px;
+    padding-left: 32px;
+}
+
+.d-flex {
+    display: flex !important;
+    justify-content: center;
+}
+
+.section_1 {
+    background-color: #5ea7ad;
+    padding-bottom: 110px;
+}
+
+.line {
+    width: 100%;
+    background-color: #ffffff17;
+    height: 1px;
+}
+
+.span_1 {
+    font-size: 14px;
+    margin-left: 105px;
+}
+
+.section_2_1 {
+    width: 20pc;
+    padding: 25px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 9px 0 rgba(0, 0, 0, 0.19);
+    ;
+}
+
+.section_2_2 {
+    width: 32pc;
+    padding: 25px;
+    background-image: url(https://wallpapercave.com/wp/wp2141407.jpg);
+
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 9px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.section_2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 55px;
+    position: absolute;
+    left: 18pc;
+    top: 30pc;
+}
+
+.span_2 {
+    margin-left: 344px;
+    font-size: 14px;
+}
+
+.span_1,
+.span_2 {
+    box-sizing: border-box;
+
+    background-color: #105673;
+    padding: 7px;
+    color: white;
+    border-radius: 5px;
+}
+
+.mybtn_1 {
+    border: 0;
+    width: 129px;
+    height: 41px;
+    border-radius: 28px;
+    background-color: #82cfc7;
+    margin-top: 24px;
+}
+
+.paragraf_3 {
+    margin-top: 204px;
+    margin-bottom: 0px;
+    color: white;
+    padding-right: 0px;
+    font-size: 27px;
+}
+
+.paragraf_3 i {
+    content: "\f09a";
+    font-size: xx-large;
+    color: #82cfc7;
+}
+
+.section_3 {
+    background-color: #82cfc7;
+    width: 100%;
+    height: 35pc;
+    border-radius: 0px 0px 100px 100px;
+}
+
+.paragraf_4 {
+    font-size: 46px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.list_2 {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+    margin-top: 31px;
+}
+
+.list_2 li a {
+    color: #767676;
+    cursor: pointer;
+    text-decoration: none;
+
+
+}
+
+.list_2 li a:hover {
+    text-decoration: underline 2px #004561;
+    color: #004561;
+}
+
+.line_2 {
+    width: 100%;
+    height: 1px;
+    background-color: #1056731c;
+
+}
+
+.section_4 {
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    margin-top: 35px;
+    margin-bottom: 80px;
+}
+
+.section_4 div {
+    padding: 20px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 1px 9px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+
+.span_3,
+.span_4,
+.span_5 {
+    font-size: 16px;
+    margin-left: 122px;
+    background-color: #004561;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.span_4 {
+    margin-left: 162px;
+}
+
+.section_5 {
+    background-image: url(https://img.freepik.com/free-vector/gradient-futuristic-background-with-connection-concept_23-2149104857.jpg?w=1060&t=st=1719732367~exp=1719732967~hmac=143d75bbac0ae0cb3920ed485e0f159c5c1f6890b19ac3604f31eeb4f25845a4);
+    /* background-image: url(https://wallpaperaccess.com/full/5620130.jpg); */
+    background-color: #105673;
+    width: 100%;
+    height: auto;
+    background-position: top;
+    background-size: cover;
+    /* opacity: 0.50; */
+    background-blend-mode: luminosity;
+
+}
+
+.paragraf_5 {
+    text-align: center;
+    padding-top: 48px;
+    font-size: 36px;
+    color:white;
+    font-weight: 800;
+}
+
+.section_5_1 {
+    display: flex;
+    margin-top: 55px;
+    height: auto;
+    flex-wrap: nowrap;
+}
+
+.section_5_1_2 {
+    padding-right: 290px;
+}
+.paragraf_6{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    margin-top: 15px;
+    padding-bottom: 19px;
+}
+.paragraf_7{
+    padding-left: 100px;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 56px;
+}
+.section_6{
+    display: flex;
+    justify-content: center;
+    column-gap: 60px;
+}
+.section_6_1 img{
+    width: 26pc;
+    margin-left: 100px;
+}
+.section_6_2{
+    padding: 20px;
+    padding-right: 80px;
+    width: 100%;
+}
+.paragraf_8{
+    font-size: 20px;
+    width: 40pc;
+    background: white;
+    height: 45px;
+    padding: 5px;
+    border-radius: 30px;
+    padding-left: 32px;
+}
+.paragraf_9{
+    line-height: 34px;
+    padding-left: 40px;
+    padding-right: 170px;
+}
+.paragraf_10{
+    font-size: 20px;
+    width: 40pc;
+    background: white;
+    height: 45px;
+    padding: 5px;
+    border-radius: 30px;
+    padding-left: 32px;
+}
+.paragraf_11{
+    font-size: 20px;
+    width: 40pc;
+    background: white;
+    height: 45px;
+    padding: 5px;
+    border-radius: 30px;
+    padding-left: 32px;
+}
+.section_6_2 p i{
+    padding-left: 370px;
+    padding-top: 2px;
+}
+.paragraf_8:hover,.paragraf_10:hover,.paragraf_11:hover{
+    background: #b8d2e9;
+    cursor: pointer;
+}
+.section_7_1 iframe{
+    border-radius: 50px;
+    padding: 20px;
+}
+.paragraf_12{
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    border-bottom-width: 0px;
+    margin-bottom: 60px;
+    padding-top: 26px;
+}
+.section_7_2{
+    width: 226px;
+    padding: 20px;
+}
+.section_7_3{
+    width: 240px;
+    padding: 20px;
+}
+.paragraf_13{
+    font-size: 26px;
+}
+.paragraf_15{
+    font-size:26px ;
+}
+.section_7_1{
+    display: flex;
+    justify-content: center;
+    column-gap: 62px;
+}
+.paragraf_14 ,.paragraf_16{
+    color: #767676;
+}
+.section_7_2 p span,.section_7_3 p span{
+    color: #79d0ff;
+}
+.section_7{
+    background-color: #f0f7fd;
+    padding-bottom: 45px;
+}
+.section_8{
+    display: flex;
+    justify-content: center;
+    column-gap: 150px;
+    padding-top: 60px;
+}
+.paragraf_17{
+    font-size: 37px;
+    font-weight: 800;
+    padding-top: 28px;
+}
+.section_8_1 ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.section_8_1 ul li a{
+    text-decoration: none;
+    color: #79d0ff;
+}
+.section_8_2 ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.section_8_2 ul li a{
+    text-decoration: none;
+    color: #79d0ff;
+}
+.section_8_3 button{
+    border: 0;
+    width: 110px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+.paragraf_18{
+    margin-top: 42px;
+    margin-bottom: 35px;
+    color: #767676;
+}
+.section_8_3{
+    padding-top: 8px;
+}
+.section_8_3 button:hover{
+    background-color: #5ea7ad;
+}
+.accordion-item{
+    border: 0;
+    margin-bottom: 10px;
+}
+.accordion-button{
+    background-color: #dceeff;
+    /* border-radius: 50px; */
+}
