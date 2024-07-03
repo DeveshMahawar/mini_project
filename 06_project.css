@@ -114,6 +114,9 @@ body {
     left: 18pc;
     top: 30pc;
 }
+.mybtn_1:hover {
+  background-color: #105673;
+}
 
 .span_2 {
     margin-left: 344px;
